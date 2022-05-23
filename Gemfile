@@ -67,3 +67,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+group :test do
+  # [...]
+  gem "launchy"
+end
